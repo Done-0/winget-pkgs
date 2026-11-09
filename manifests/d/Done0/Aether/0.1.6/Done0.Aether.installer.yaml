@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Done0.Aether
+PackageVersion: 0.1.6
+InstallerType: nullsoft
+Scope: user
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Done-0/Aether/releases/download/v0.1.6/Aether-windows-x64.exe
+  InstallerSha256: 282CDD4FBE801A569B23F9C8FEB65A39A7DCA053EB5F2EE2CACF82E2932EEC09
+  ReleaseDate: '2026-11-09'
+  InstallerSwitches:
+    Silent: /S
+    SilentWithProgress: /S
+ManifestType: installer
+ManifestVersion: 1.12.0
